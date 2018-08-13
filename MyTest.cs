@@ -25,4 +25,28 @@ public class TestClass
     {
         return a - b;
     }
+
+    /// <summary>
+    /// mutliply groups of a with value of b
+    /// </summary>
+    /// <param name="a">groups of</param>
+    /// <param name="b">value of</param>
+    /// <returns></returns>
+    private int PrimitiveMultiplication(int a, int b)
+    {
+        int result;
+        //add b to result a times
+        for (int i = 0; i < a; ++i)
+        {
+            result + b;
+        }
+        return result;
+    }
+
+    //hack test
+    static void Main()
+    {
+        Console.WriteLine( PrimitiveMultiplication(3, 4));
+        Console.ReadKey();
+    }
 }
